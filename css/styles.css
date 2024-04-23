@@ -27,7 +27,7 @@ html, body {
     height: 100%;
 }
 body {
-    background: #bd8a93; 
+    background: #ec899b; 
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.5rem;
@@ -48,20 +48,27 @@ h2 {
 h3 {
     font-size: 2.4rem;
 }
+h4 {
+    line-height: 0.85;
+    fill: rgb(226, 182, 127);
+    color: rgb(51, 33, 9);
+}
 div {
-    background-color: rgb(102, 74, 74);
+    background-color: rgb(159, 202, 180);
     padding: 10px;
     display: none;
+    color: rgb(82, 48, 4);
   }
     
   span:hover + div {
     display: block;
+    fill: rgb(204, 174, 136);
   }
 
   .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: #2196F3;
+    background-color: #e8ebee;
     padding: 10px;
   }
   
